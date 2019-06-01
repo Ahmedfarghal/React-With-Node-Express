@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js",
@@ -19,5 +22,6 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "nodemon": "^1.19.1"
-  }
+  },
+  "homepage": "https://ahmedfarghal.github.io/React-With-Node-Express/"
 }
