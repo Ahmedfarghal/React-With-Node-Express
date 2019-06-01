@@ -31,5 +31,7 @@ How to run the app?
   
   2- npm run dev
 
+  You can run the live preiew just from <a href="">here</a>
+
 
 
