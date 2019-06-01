@@ -27,9 +27,15 @@ react front from one command </p>
 
 How to run the app?
 ---
-  1- cd server
+  1- cd client
+
+  2- npm install
   
-  2- npm run dev
+  3- cd ..
+
+  4- npm install
+
+  5- npm run dev
 
   You can run the live preview just from <a href="">here</a>
 
